@@ -1,0 +1,30 @@
+@media screen and (max-width:768px){
+    .sidebar{
+     display: none;
+    }
+    .hero, .main-content{
+        margin-left: 0%;
+    }
+    .footer{
+        display: none;
+    }
+    .media-footer{
+         bottom: 73px;
+    }
+    .top-hero{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+      }
+}
+
+@media screen and (min-width:768px){
+    .footer-nav{
+      display: none!important;
+      /* z-index: 300; */
+    }
+    .media-footer{
+      display: none!important;
+      
+    }
+  }

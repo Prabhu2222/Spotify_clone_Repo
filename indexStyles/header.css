@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position:fixed;
+    top:0;
+    left:249px;
+    right:0;
+
+    background-color: black;
+    color:white;
+
+    padding:10px 20px;
+
+    z-index:50;
+}
+.left-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap:10px;
+}
+.left-header img{
+    width:35px;
+}
+.right-header{
+    display: flex;
+      gap:10px;
+      align-items: center;
+
+}

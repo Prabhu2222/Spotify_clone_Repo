@@ -1,0 +1,47 @@
+@media screen and (max-width:768px){
+  .sidebar{
+    display: none;
+  } 
+  .header{
+   left:0;
+  } 
+  .hero{
+    margin-left: 0%;
+  }
+  .footer{
+    display: none;
+  }
+  .footer-nav{
+    display: flex;
+    /* z-index: 300; */
+  }
+  .media-footer{
+    display: flex;
+    
+  }
+  .top-hero-cards{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  
+  .bottom-hero-artist-posters{
+    display: flex;
+    overflow-x: scroll;
+  }
+.bottom-hero{
+  margin-bottom: 180px;
+}
+
+}
+
+
+@media screen and (min-width:768px){
+  .footer-nav{
+    display: none!important;
+    /* z-index: 300; */
+  }
+  .media-footer{
+    display: none!important;
+    
+  }
+}

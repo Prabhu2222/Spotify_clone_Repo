@@ -1,0 +1,135 @@
+
+.hero{
+ 
+    margin-left:249px;
+
+    padding:18px 35px;
+
+    background: linear-gradient(180deg, #222222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0) 100%);
+
+    color:white;
+    font-weight: 600;
+
+}
+.top-hero{
+    
+    width:100%;
+    margin-top:4.9%;
+     margin-left: 8px;
+    
+
+}
+.top-hero-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+   
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+    /* flex-basis: auto; */
+    align-items: center;
+
+    white-space: nowrap;
+
+    background: rgba(48, 48, 48, 1);
+
+    width:290px;
+
+    /* width:362px;
+    height:100px; */
+
+}
+.card img{
+    height:100px;
+}
+.top-hero-title{
+    display: flex;
+    align-items: center;
+
+    margin-top: 20px;;
+    margin-bottom:20px;
+
+    font-size: 20px;
+}
+.bottom-hero{
+    margin-bottom: 80px;;
+}
+
+
+.bottom-hero-title{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 20px;;
+ margin-bottom:20px;
+}
+.bottom-hero-title p{
+    font-weight: 400;
+    font-size: 12px;
+    color:
+}
+
+.bottom-hero-artist-posters{
+display: grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+grid-auto-rows:auto;
+column-gap:20px;
+row-gap: 20px;
+}
+
+
+.artist-poster{
+    background: rgba(24, 24, 24, 1);
+
+   
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+   
+    padding:16px 16px;  
+
+    border-radius: 6px;
+
+    position:relative;
+    
+    transition:all .5s;
+
+ 
+}
+.play-icon {
+    position: absolute;
+    bottom:76px;
+    right:18px;
+    opacity: 0;
+    transition:all .5s ;
+   
+}
+.artist-poster:hover{
+    background-color: #282828;
+}
+.artist-poster:hover .play-icon{
+ opacity: 1;
+    
+}
+.artist-poster img{
+    height:auto;
+    object-fit: cover;
+}
+
+.artist-info{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+}
+.artist-info p:nth-child(2){
+     font-size: 12px; 
+     color: rgba(179, 179, 179, 1);
+}
+.alexa{
+    height:145px;
+}
+

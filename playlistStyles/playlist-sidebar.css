@@ -1,0 +1,96 @@
+
+
+.sidebar {
+    /* width: 20%; */
+    height: 96%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    /* opacity: 1; */
+
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    /* padding-left: 42px; */
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+     z-index: 100;
+
+     white-space: nowrap;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
+.logo-div{
+    padding-left:42px;
+}
+.logo-div img {
+    height:40px;
+}
+
+.nav-div {
+    /* display: flex;
+    flex-direction: column; */
+    /* background-color: turquoise; */
+    /* gap: 5px; */
+
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    
+
+    /* background-color: blueviolet; */
+
+    /* padding: 4px 0px; */
+    padding-left: 42px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right:60px;
+
+    /* width:100%; */
+
+}
+.nav-icon:hover{
+    background-color: lightslategray;
+}
+
+.nav-icon img {
+    width: 25px;
+    height: 25px;
+    /* margin-right: 30px; */
+}
+.album-image{
+    /* background-color: yellow; */
+    margin-left: 8px;
+    margin-right: 8px;
+    /* height:300px; */
+    padding:150px 0px 10px 50px;
+  
+}
+.album-image img{
+    width:100px;
+    object-fit: cover;
+    padding-top: 100px 100px;
+
+   
+}
+
+
+

@@ -1,0 +1,69 @@
+.footer{
+    width:100%;
+    background-color: black;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    color:white;
+
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap:240px; */
+    
+
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:15px;
+
+    z-index: 200;
+
+}
+.left-right-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+
+    /* margin-left: 25px; */
+
+}
+.middle-footer{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+
+  margin-left: 60px;
+}
+.music-control-div{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+gap:5px;
+
+}
+.playbar-div{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+gap:8px;
+}
+.playbar-div p{
+    font-size: 12px;
+}
+.volume-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+}

@@ -1,0 +1,89 @@
+
+.main-content{
+    margin-left: 249px;
+    min-height: fit-content;
+    /* background: linear-gradient(0deg, #90AEA7 0%, #000000 89.7%); */
+
+
+    color: white;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+}
+.main-content-header{
+    /* border:2px solid red; */
+    background-color: black;
+    height:56px;
+
+    display:flex;
+    align-items: center;
+    gap:20px;
+
+    position:sticky;
+    top:0;
+
+    padding:10px 20px;
+
+    
+    z-index: 50;
+}
+.playlist-div{
+    background-color: black;
+    color:white;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+.playlist-content-left{
+    display: flex;
+    align-items: center;
+    gap:8px;
+
+    white-space: nowrap;
+}
+.song-info{
+    display: flex;
+    flex-direction: column;
+}
+.song-info p:nth-child(1){
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.song-info p:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+
+} 
+.special-row{
+background-color: #282828;
+}
+table{
+    border-collapse: collapse;
+}
+table tr td{
+    padding:10px;
+}
+table tr{
+    text-align: center;
+}
+table th{
+    text-align: center;
+    padding:10px;
+    font-weight: 400;
+}
+table tr:nth-child(1) th:nth-child(1){
+    text-align: left;
+}
+
+.playlist-div table tr:hover{
+    background-color: #282828;
+}
+.playlist-div table tr:nth-child(1):hover {
+    background-color:black;
+}
